@@ -93,3 +93,10 @@ Route::get('salario/aumento;',function(Request $request){
       $resultado =  $salario * $aumento / 100;
       return $salario + $resultado;
    });
+   Route::get('pontos/valor',function(Request $request){
+    $valor = $request->input('valor');
+    $resultado = $valor/10;
+    return $resultado;
+});
+
+
