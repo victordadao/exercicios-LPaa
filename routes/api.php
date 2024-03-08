@@ -59,3 +59,10 @@ Route::get('receber/primeiroNumero/segundoNumero/terceiroNumero/quartoNumero/qui
     $resultado =  $primeiroNumero + $segundoNumero; + $terceiroNumero +  $quartoNumero +  $quintoNumero / 5;
     return $resultado; 
 });
+
+Route::get('receber/Numero1/Numero2',function(Request $request){
+    $Numero1 = $request->input('Numero1'); 
+    $Numero2 = $request->input('Numero2'); 
+    $resultado =  $Numero1 / $Numero2;
+    return $resultado; 
+});
