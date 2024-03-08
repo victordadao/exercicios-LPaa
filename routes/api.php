@@ -72,3 +72,10 @@ Route::get('receber/Numero',function(Request $request){
     $resultado =  $Numero * 2;
     return 'O dobro do ' . ($Numero) .' é igual a: '. $resultado;
 });
+
+Route::get('altura/base/area;',function(Request $request){
+    $altura = $request->input('altura'); 
+    $base = $request->input('base'); 
+    $resultado = $base * $altura;
+    return $resultado;
+});
