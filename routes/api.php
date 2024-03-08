@@ -99,4 +99,10 @@ Route::get('salario/aumento;',function(Request $request){
     return $resultado;
 });
 
+Route::get('comissão/valor',function(Request $request){
+    $valor = $request->input('valor');
+    $resultado = $valor * 5 /100;
+    return $resultado;
+});
+
 
