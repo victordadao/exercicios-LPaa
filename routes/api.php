@@ -114,5 +114,13 @@ Route::get('hora/segundo/minuto',function(Request $request){
   
 });
 
+Route::get('valortotal',function(Request $request){
+    $valortotal = $request->input('valortotal');
+    $quantia = $request->input('quantia');
+    $resultado = $valortotal * $quantia;
+    return $resultado;
+});
+
+
 
 
