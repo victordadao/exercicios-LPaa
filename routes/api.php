@@ -86,3 +86,10 @@ Route::get('valor/desconto;',function(Request $request){
     $resultado = $valor * $desconto / 100;
     return $resultado - $resultado;
 });
+
+Route::get('salario/aumento;',function(Request $request){
+    $salario = $request->input('salario'); 
+      $aumento = $request->input('aumento'); 
+      $resultado =  $salario * $aumento / 100;
+      return $salario + $resultado;
+   });
