@@ -104,5 +104,15 @@ Route::get('comissão/valor',function(Request $request){
     $resultado = $valor * 5 /100;
     return $resultado;
 });
+Route::get('hora/segundo/minuto',function(Request $request){
+    $dias = $request->input('dias'); 
+   $hora = $dias * 24;
+   $minuto = $hora * 60;
+   $segundo = $minuto * 60;
+   $resultado = $hora . ',' . $segundo . ',' . $minuto;
+   return $resultado;
+  
+});
+
 
 
