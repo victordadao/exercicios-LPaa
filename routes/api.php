@@ -42,3 +42,10 @@ Route::get('receber/primeiroNumero/segundoNumero',function(Request $request){
     $resultado =  $segundoNumero / $primeiroNumero;
     return $resultado; 
 });
+
+Route::get('receber/primeiro/segundo',function(Request $request){
+    $primeiroNumero = $request->input('$primeiro'); 
+    $segundoNumero = $request->input('$segundo'); 
+    $resultado =  $segundoNumero . $primeiroNumero;
+    return $resultado; 
+});
