@@ -16,7 +16,7 @@ Route::get('receber/nome/idade',function(Request $request){
 
 Route::get('receber/nome/nascimento/cidadeNatal',function(Request $request){
     $nome = $request->input('nome'); 
-    $nascimento = $request->input('nacimento'); 
+    $nascimento = $request->input('nascimento'); 
     $cidadeNatal = $request->input('cidadeNatal');
     return $nome . $nascimento . $cidadeNatal;
 });
@@ -24,29 +24,29 @@ Route::get('receber/nome/nascimento/cidadeNatal',function(Request $request){
 Route::get('receber/primeiroNumero/segundoNumero',function(Request $request){
     $primeiroNumero = $request->input('$primeiroNumero'); 
     $segundoNumero = $request->input('$segundoNumero'); 
-    $resultado =  $segundoNumero . $primeiroNumero;
+    $resultado =  $segundoNumero + $primeiroNumero;
     return $resultado; 
 });
 
-Route::get('receber/primeiroNumero/segundoNumero/terceiroNumero',function(Request $request){
-    $primeiroNumero = $request->input('$primeiroNumero'); 
-    $segundoNumero = $request->input('$segundoNumero'); 
-    $terceiroNumero = $request->input('$terceiroNumero');
+Route::get('receber/primeiroNu/segundoNu/terceiroNu',function(Request $request){
+    $primeiroNumero = $request->input('$primeiroNu'); 
+    $segundoNumero = $request->input('$segundoNu'); 
+    $terceiroNumero = $request->input('$terceiroNu');
     $resultado =  $segundoNumero - $primeiroNumero; - $terceiroNumero;
     return $resultado; 
 });
 
-Route::get('receber/primeiroNumero/segundoNumero',function(Request $request){
-    $primeiroNumero = $request->input('$primeiroNumero'); 
-    $segundoNumero = $request->input('$segundoNumero'); 
-    $resultado =  $segundoNumero / $primeiroNumero;
+Route::get('receber/primeiro1/segundo2',function(Request $request){
+    $primeiro = $request->input('$primeiro'); 
+    $segundo = $request->input('$segundo'); 
+    $resultado =  $primeiro / $segundo;
     return $resultado; 
 });
 
 Route::get('receber/primeiro/segundo',function(Request $request){
     $primeiroNumero = $request->input('$primeiro'); 
     $segundoNumero = $request->input('$segundo'); 
-    $resultado =  $segundoNumero . $primeiroNumero;
+    $resultado =  $segundoNumero * $primeiroNumero;
     return $resultado; 
 });
 
@@ -56,38 +56,38 @@ Route::get('receber/primeiroNumero/segundoNumero/terceiroNumero/quartoNumero/qui
     $terceiroNumero = $request->input('$terceiroNumero');
     $quartoNumero = $request->input('$quartoNumero');
     $quintoNumero = $request->input('$quintoNumero');
-    $resultado =  $primeiroNumero + $segundoNumero; + $terceiroNumero +  $quartoNumero +  $quintoNumero / 5;
+    $resultado =  ($primeiroNumero + $segundoNumero + $terceiroNumero +  $quartoNumero +  $quintoNumero) / 5;
     return $resultado; 
 });
 
 Route::get('receber/Numero1/Numero2',function(Request $request){
-    $Numero1 = $request->input('Numero1'); 
-    $Numero2 = $request->input('Numero2'); 
+    $Numero1 = $request->input('$Numero1'); 
+    $Numero2 = $request->input('$Numero2'); 
     $resultado =  $Numero1 / $Numero2;
     return $resultado; 
 });
 
-Route::get('receber/Numero',function(Request $request){
+Route::get('receber/Numero/seg',function(Request $request){
     $Numero = $request->input('Numero'); 
     $resultado =  $Numero * 2;
-    return 'O dobro do ' . ($Numero) .' é igual a: '. $resultado;
+    return 'O dobro do ' . $Numero .' é igual a: '. $resultado;
 });
 
-Route::get('altura/base/area;',function(Request $request){
+Route::get('altura/base/area',function(Request $request){
     $altura = $request->input('altura'); 
     $base = $request->input('base'); 
     $resultado = $base * $altura;
     return $resultado;
 });
 
-Route::get('valor/desconto;',function(Request $request){
+Route::get('valor/desconto',function(Request $request){
     $valor = $request->input('valor'); 
    $desconto = $request->input('desconto'); 
     $resultado = $valor * $desconto / 100;
     return $resultado - $resultado;
 });
 
-Route::get('salario/aumento;',function(Request $request){
+Route::get('salario/aumento',function(Request $request){
     $salario = $request->input('salario'); 
       $aumento = $request->input('aumento'); 
       $resultado =  $salario * $aumento / 100;
