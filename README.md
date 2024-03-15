@@ -58,6 +58,6 @@ Este projeto está licenciado sob a [MIT License](LICENSE), o que significa que 
 
 Em caso de dúvidas, sugestôes ou problemas, sinta-se à vontade para entrar em contato através do email: victorsenai.hotmail.com
 
-**Aviso**: Certifique-se de substituir "victordadao"no link de clonagem e "seu_email@example.com" na seção de contato pelos valores correspondentes do seu próprio usúario do Github e endereço de e-mail.
+**Aviso**: Certifique-se de substituir "victordadao"no link de clonagem e "victorsenai@hotmail.com" na seção de contato pelos valores correspondentes do seu próprio usúario do Github e endereço de e-mail.
 
 Este é apenas um modelo básico de README.md, você pode adaptar e melhorar conforme suas necessidades específicas de projeto. Certifique-se de incluir informações sobre como configurar, executar e testar os exercícios, bem como qualquer outra docimentação relevante para tornar um repositorio mais amigavel e util para outros desenvolvedores. 
