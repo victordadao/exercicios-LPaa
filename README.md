@@ -2,42 +2,62 @@
 
 
 
-exercicios API com PHP
-este projeto contem uma serie de exercicios praticos para trabalhar com API e retorno dos dados no formato JSON utilizando a linguagem PHP e o fremework laravel.
+# Exercícios API com PHP
+Este projeto contém uma série de exercícios práticos para trabalhar com API e retorno dos dados no formato JSON utilizando a linguagem PHP e o framework Laravel.
 
-Requisitos
-certifique se de ter os seguintes requisitos atendidos antes de comecar a trabalhar nos exercicios:
+## Requisitos
 
-PHP instalado / Xampp
-Composer
-7-Zip
-Git
-insomia
-visual studio code
-Como utilizar este repositório
-clone este repositorio para seu ambiente de desenvolvimento local utilizando o comando :
-git clone https://github.com/victordadao/exercicios-LPaa.git`
-Acesse o diretorio do projeto:
-cd exercicios-Lpa
+Certifique-se de ter os seguintes requisitos atendidos antes de começar a trabalhar nos exercícios :
 
-iniciando projeto
-composer update
+* PHP instalado / Xampp
+* Composer
+*  Git
+* Visual Studio Code
+* 7-zip
+* Insomnia
 
-iniciando o servidor
-php artisan serve --80
+## Como utilizar este repositório
+1. Clone este repositório para o seu ambiente de desenvolvimento local utilizando o comando:
 
-acessar o visual studio code
-code .
+`` 
+Git clone https://github.com/luiz1004/exercicios-lpa.git
+``
 
-importar o arquivo pro insomia
+2.  Acesse o diretorio do projeto:
 
-licença
-projeto esta licenciado sob a [MIT License](LICENSE)
-o que siguinifica que voce pode utiliza lo livremente para fins educacionais, comerciais ou pessoais
+````
+Cd exercicios-lpa
+````
 
-contato
-em caso de duvidas,sugestoes ou problemas,sinta se a vontade para entrar em contato atraves do email: victorsenai.hotmail.com
+3. iniciando o projeto:
 
-Aviso: certifique-se de substituir “victordadao” no link de clonagem e "victorsenai.hotmail.com" na seção de contato pelos valores correspondentes do seu próprio usuário do GitHub e endereço de e-mail.
+````
+Composer Update
+````
 
-Este é apenas um modelo básico de readme.md, voce pode adaptar e melhorar conforme suas necessidades específicas de projeto. Certifique-se de incluir informações importantes sobre como configurar, executar e testar os exercícios, bem como qualquer outra documentação relevante para tornar o repositório mais amigável e útil para outros desenvolvedores.
+4. Iniciando o servidor
+
+````
+php artisan serve --port=80
+````
+
+5. Acessar o Visual Studio Code
+
+````
+Code .
+````
+
+6. Importar o arquivo do insomnia
+
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE), o que significa que você pode utilizá-lo livremente para fins educacionais, comerciais ou pessoais.
+
+## Contato
+
+Em caso de dúvidas, sugestôes ou problemas, sinta-se à vontade para entrar em contato através do email: luizpilan20@hotmail.com
+
+**Aviso**: Certifique-se de substituir "seu_usuario"no link de clonagem e "seu_email@example.com" na seção de contato pelos valores correspondentes do seu próprio usúario do Github e endereço de e-mail.
+
+Este é apenas um modelo básico de README.md, você pode adaptar e melhorar conforme suas necessidades específicas de projeto. Certifique-se de incluir informações sobre como configurar, executar e testar os exercícios, bem como qualquer outra docimentação relevante para tornar um repositorio mais amigavel e util para outros desenvolvedores. 
