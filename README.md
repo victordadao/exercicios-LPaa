@@ -1,11 +1,6 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+
 
 exercicios API com PHP
 este projeto contem uma serie de exercicios praticos para trabalhar com API e retorno dos dados no formato JSON utilizando a linguagem PHP e o fremework laravel.
@@ -37,7 +32,7 @@ code .
 importar o arquivo pro insomia
 
 licença
-projeto esta licenciado sob a [MIT License] (LICENSE)
+projeto esta licenciado sob a [MIT License](LICENSE)
 o que siguinifica que voce pode utiliza lo livremente para fins educacionais, comerciais ou pessoais
 
 contato
