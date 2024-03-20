@@ -26,7 +26,7 @@ Git clone https://github.com/victordadao/exercicios-lpaa.git
 2.  Acesse o diretorio do projeto:
 
 ````
-Cd exercicios-lpa
+Cd exercicios-lpaa
 ````
 
 3. iniciando o projeto:
