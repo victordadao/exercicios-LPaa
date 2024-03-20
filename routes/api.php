@@ -119,7 +119,7 @@ Route::get('valortotal',function(Request $request){
     $quantia = $request->input('quantia');
     $resultado = $valortotal * $quantia;
     return $resultado;
-});
+});  
 
 Route::get('exemplo/condicao', function (Request $request) {
     $idade = $request->input('idade');
@@ -134,5 +134,67 @@ Route::get('exemplo/condicao', function (Request $request) {
     
 });
 
+Route::get('verifica/idade',function(Request $request){
+    $idade=$request->input('idade');
+    
+    if ('idade'>= 18) {
+        return "maior de idade";
 
 
+    } else {return "menor idade"; }
+});
+
+Route::get('par/impar',function(Request $request){
+    $numero = $request->input('numero');
+    if ($numero % 2 == 0){return "ele é par";}
+    else {return "ele é impar";} 
+});
+
+Route::get('maior/numero',function(Request $request){
+    $numero = $request->input('numero');
+
+    if ($numero> 10){
+
+    return "maior que 10";
+} else {return "menor que 10"; }
+});
+
+Route::get('calor',function(Request $request){
+    $numero = $request->input('numero');
+
+    if ($numero> 30){
+
+    return "Esta quente";
+
+
+} else {return "normal"; }
+});
+
+Route::get('menor ou maior',function(Request $request){
+    $numero = $request->input('numero');
+
+    if ($numero> 0){
+return "maior que 0";
+
+
+} else {return "menor que 0"; }
+});
+
+
+Route::get('maior',function(Request $request){
+    $numero = $request->input('numero');
+    $numero2 = $request->input('numero2');
+
+    if ($numero>$numero2 ){
+        return "imprime";}
+
+    
+    
+});
+
+Route::get('divisão',function(Request $request){
+    $numero = $request->input('numero');
+    if ($numero % 3 == 0){return "divisivel";}
+    else {return "não divisivel";} 
+
+});
