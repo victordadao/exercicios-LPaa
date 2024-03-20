@@ -184,8 +184,7 @@ return "maior que 0";
 Route::get('maior',function(Request $request){
     $numero = $request->input('numero');
     $numero2 = $request->input('numero2');
-
-    if ($numero>$numero2 ){
+if ($numero>$numero2 ){
         return "imprime";}
 
     
