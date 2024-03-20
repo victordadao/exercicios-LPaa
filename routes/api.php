@@ -121,6 +121,18 @@ Route::get('valortotal',function(Request $request){
     return $resultado;
 });
 
+Route::get('exemplo/condicao', function (Request $request) {
+    $idade = $request->input('idade');
+    $retorno = "";
+    if($idade >= 18){
+        $retorno = "Maior de idade";
+    }
+    else{
+        $retorno = "Menor de idade";
+    }
+    return $retorno;
+    
+});
 
 
 
