@@ -365,7 +365,7 @@ Route::get('exercicio13', function (Request $request) {
 Route::get('exercicio14', function (Request $request) {
     $idade = $request->input('idade');
    $abilitação = $request->input('abilitação');
-   if ()
+
 }); 
 
 
